@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment2">
+
+    <fragment
+        android:id="@+id/inventoryFragment"
+        android:name="com.cs360.inventory.InventoryFragment"
+        android:label="fragment_inventory"
+        tools:layout="@layout/fragment_inventory" >
+        <action
+            android:id="@+id/action_inventoryFragment_to_inventoryItemFragment"
+            app:destination="@id/inventoryItemFragment" />
+        <action
+            android:id="@+id/action_inventoryFragment_to_settings2"
+            app:destination="@id/settings2" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment2"
+        android:name="com.cs360.inventory.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment2_to_inventoryFragment"
+            app:destination="@id/inventoryFragment" />
+        <action
+            android:id="@+id/action_loginFragment2_to_registerFragment3"
+            app:destination="@id/registerFragment3" />
+    </fragment>
+    <fragment
+        android:id="@+id/inventoryItemFragment"
+        android:name="com.cs360.inventory.InventoryItemFragment"
+        android:label="fragment_inventory_item"
+        tools:layout="@layout/fragment_inventory_item" />
+    <fragment
+        android:id="@+id/registerFragment3"
+        android:name="com.cs360.inventory.RegisterFragment"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" />
+    <fragment
+        android:id="@+id/settings2"
+        android:name="com.cs360.inventory.Settings"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>

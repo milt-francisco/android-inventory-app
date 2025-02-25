@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Inventory +</string>
+    <!--    Login   -->
+    <string name="inventory_title">Inventory +</string>
+    <string name="inventory_logo_description">Inventory logo</string>
+    <string name="login_instruction">Please enter your information</string>
+    <string name="username">Username</string>
+    <string name="enter_password">Enter password</string>
+    <string name="enter_username">Enter username</string>
+    <string name="password">Password</string>
+    <string name="register_text">Don\'t have an account?</string>
+    <string name="create_account"><u>Create account here!</u></string>
+    <string name="login">Login</string>
+
+    <!-- Register -->
+    <string name="register">Register</string>
+    <string name="reenter_password">Re-enter password</string>
+    <string name="registration">Registration</string>
+    <string name="add_button">Add new item</string>
+
+    <!--    Inventory   -->
+    <string name="item_name_label">Item Name</string>
+    <string name="settings_icon_description">Settings page</string>
+    <string name="inventory_remove_icon_description">Remove item and quantity from inventory?</string>
+    <string name="header_remove_label">Delete</string>
+    <string name="header_quantity_label">Quantity</string>
+
+    <!--    Inventory Item  -->
+    <string name="item_name_input_label">Enter item name</string>
+    <string name="item_qty_label">Quantity</string>
+    <string name="item_qty_input_label">Enter quantity</string>
+    <string name="item_remove_label"><u>Remove</u></string>
+    <string name="item_save_label">Save</string>
+    <string name="remove_item_button_description">Remove one from quantity</string>
+    <string name="add_item_button_description">Add one to quantity</string>
+    <string name="back_button_description">Return to previous page</string>
+    <string name="item_page_title">Item Page</string>
+    <string name="list_item_item_name">Item Name</string>
+    <string name="list_item_qty_label">Qty:</string>
+
+    <!-- Settings -->
+    <string name="settings_page_title">Settings</string>
+    <string name="enable_sms_notifications">Enable SMS Notifications</string>
+    <string name="receive_SMS_description">Enables SMS notifications to receive an alert when an inventory item is depleted.</string>
+
+
+</resources>
